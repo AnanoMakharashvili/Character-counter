@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styless.css" />
+    <link rel="icon" href="assets/favicon-32x32.png" />
+    <title>Character counter</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img
+          src="assets/logo-light-theme.svg"
+          rel="logo-light-theme"
+          class="logo-light-theme"
+        />
+        <img src="assets/icon-moon.svg" rel="icon-moon" class="icon-moon" />
+      </header>
+      <h1 class="head-style">Analyze your text in real-time.</h1>
+      <p class="paragraph-style">
+        Design is the silent ambassador of your brand. Simplicity is key to
+        effective communication, creating clarity in every interaction. A great
+        design transforms complex ideas into elegant solutions, making them easy
+        to understand. It blends aesthetics and functionality seamlessly.
+      </p>
+      <div class="char-limit-title">
+        <div class="spaces-set-style">
+          <input type="radio" value="Exclude Spaces" />
+          <label for="Exclude Spaces">Exclude Spaces</label>
+        </div>
+        <div class="spaces-set-style">
+          <input type="radio" value="Set Character Limit" />
+          <label for="Set Character Limit">Set Character Limit</label>
+        </div>
+        <span>Approx. reading time: 1 minute</span>
+      </div>
+      <div class="box-container-style">
+        <div class="box-style-one">
+          <div class="box-section">
+            <span id="total-characters">278</span>
+            <span class="word">Total Characters</span>
+          </div>
+          <img
+            src="assets/pattern-character-count.svg"
+            rel="pattern-character-count"
+            class="pattern-character-count"
+          />
+        </div>
+        <div class="box-style-two">
+          <div class="box-section">
+            <span id="word-count">39</span>
+            <span class="word">Word Count</span>
+          </div>
+          <img
+            src="assets/pattern-word-count.svg"
+            rel="Word-count"
+            class="Word-count"
+          />
+        </div>
+        <div class="box-style-three">
+          <div class="box-section">
+            <span id="sentence-count">04</span>
+            <span class="word">Sentence Count</span>
+          </div>
+          <img
+            src="assets/pattern-sentence-count.svg"
+            rel="pattern-sentence-count"
+            class="pattern-sentence-count"
+          />
+        </div>
+      </div>
+      <h2 id="letterDensity">Letter Density</h2>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
