@@ -37,15 +37,16 @@ header {
   border-radius: 3px;
 }
 
-.paragraph-style {
+#textInput {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -0.6px;
   background-color: #f2f2f7;
   color: #2a2b37;
-  padding: 14px;
+  padding: 80px;
   border-radius: 8px;
+  border: none;
 }
 
 .char-limit-title {
@@ -202,8 +203,8 @@ h2 {
     text-align: center;
   }
 
-  .paragraph-style {
-    padding: 50px;
+  #textInput {
+    padding: 84px 350px;
   }
 
   .char-limit-title {
