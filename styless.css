@@ -31,6 +31,12 @@ header {
   text-align: center;
 }
 
+.icon-moon {
+  background-color: #f2f2f7;
+  padding: 8px;
+  border-radius: 3px;
+}
+
 .paragraph-style {
   font-weight: 400;
   font-size: 20px;
@@ -181,4 +187,85 @@ h2 {
   margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  header {
+    gap: 436px;
+  }
+
+  .head-style {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  .paragraph-style {
+    padding: 50px;
+  }
+
+  .char-limit-title {
+    flex-direction: row;
+    align-self: flex-start;
+  }
+
+  .box-container-style {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .approx-style {
+    transform: translate(-8px, -37px);
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .box-style-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 21px 49px;
+    border-radius: 9px;
+  }
+
+  .box-style-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 21px 49px;
+    border-radius: 9px;
+  }
+  .box-style-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 21px 49px;
+    border-radius: 9px;
+  }
+
+  #total-characters {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+  }
+
+  #Word-count {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+  }
+
+  #sentence-count {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+  }
 }
