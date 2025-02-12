@@ -27,6 +27,10 @@ header {
   display: none;
 }
 
+#logo-dark-theme {
+  display: none;
+}
+
 .head-style {
   font-weight: 700;
   font-size: 40px;
@@ -218,7 +222,7 @@ h2 {
 
   .char-limit-title {
     flex-direction: row;
-    align-self: flex-start;
+    gap: 108px;
   }
 
   .box-container-style {
@@ -227,9 +231,7 @@ h2 {
   }
 
   .approx-style {
-    transform: translate(-8px, -37px);
     display: flex;
-    align-self: flex-end;
   }
 
   .box-style-one {
