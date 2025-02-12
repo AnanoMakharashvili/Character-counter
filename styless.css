@@ -23,6 +23,10 @@ header {
   gap: 123px;
 }
 
+#icon-sun {
+  display: none;
+}
+
 .head-style {
   font-weight: 700;
   font-size: 40px;
@@ -188,6 +192,11 @@ h2 {
   margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
 }
 
 @media (min-width: 1024px) {

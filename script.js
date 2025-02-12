@@ -1,3 +1,16 @@
+const switchThem = document.getElementById("icon-moon");
+const textInput = document.getElementById("textInput");
+const switchWhiteThem = document.getElementById("icon-sun");
+console.log(textInput);
+
+switchThem.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  textInput.style.backgroundColor = "#21222C";
+  textInput.style.color = "#E4E4EF";
+  switchThem.style.display = "none";
+  switchWhiteThem.style.display = "block";
+});
+
 const data = [
   { letter: "E", value: 40, percentage: 16.06 },
   { letter: "I", value: 29, percentage: 11.65 },
