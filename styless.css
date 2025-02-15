@@ -166,6 +166,7 @@ h2 {
   display: flex;
   align-items: center;
   margin: 10px 0;
+  gap: 100px;
 }
 
 .letter {
@@ -179,12 +180,16 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   margin: 0 10px;
+  padding: 3px 100px;
 }
 
 .bar {
   height: 10px;
   background-color: #c89af8;
   transition: width 0.5s ease-in-out;
+  padding: 5px;
+  border-radius: 4px;
+  transform: translate(-95px, 1px);
 }
 
 .value {
