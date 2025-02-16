@@ -222,7 +222,17 @@ h2 {
   }
 
   #textInput {
-    padding: 84px 350px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  textarea {
+    text-align: left;
+    direction: ltr;
+    white-space: pre-wrap;
+    resize: vertical;
   }
 
   .char-limit-title {
