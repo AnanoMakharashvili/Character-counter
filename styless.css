@@ -57,6 +57,13 @@ header {
   border: none;
 }
 
+textarea {
+  text-align: left;
+  direction: ltr;
+  white-space: pre-wrap;
+  resize: vertical;
+}
+
 .char-limit-title {
   display: flex;
   flex-direction: column;
@@ -86,8 +93,8 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: #d3a0fa;
-  padding: 6px 36px;
-  border-radius: 9px;
+  padding: 12px 16px;
+  border-radius: 8px;
 }
 
 .box-section {
@@ -113,8 +120,8 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: #ff9f00;
-  padding: 6px 54px;
-  border-radius: 9px;
+  padding: 12px 36px;
+  border-radius: 8px;
 }
 
 #word-count {
@@ -142,8 +149,8 @@ header {
   flex-direction: row;
   align-items: center;
   background-color: #fe8159;
-  padding: 6px 36px;
-  border-radius: 9px;
+  padding: 12px 19px;
+  border-radius: 8px;
 }
 
 #sentence-count {
@@ -222,7 +229,7 @@ h2 {
   }
 
   #textInput {
-    width: 100%;
+    padding: 54px 443px;
     display: block;
     text-align: left;
     vertical-align: top;
