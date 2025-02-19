@@ -7,7 +7,6 @@ const checkBoxDark = document.getElementById("checkbox");
 const totalCharacters = document.getElementById("total-characters");
 const wordCount = document.getElementById("word-count");
 const sentenceCount = document.getElementById("sentence-count");
-console.log(sentenceCount);
 
 switchThem.addEventListener("click", () => {
   document.body.classList.add("dark-mode");
@@ -29,6 +28,11 @@ switchWhiteThem.addEventListener("click", () => {
   headerThemDark.style.display = "none";
   headerThemLight.style.display = "block";
   checkBoxDark.style.accentColor = "#D3A0FA";
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const textInput = document.getElementById("textInput");
+  textInput.value = textInput.value.trim(); // აქ ზედმეტი ხაზები იშლება
 });
 
 const data = [

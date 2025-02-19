@@ -177,8 +177,12 @@ h2 {
 }
 
 .letter {
-  width: 20px;
   font-weight: bold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  letter-spacing: -0.6px;
+  color: #12131a;
 }
 
 .bar-container {
@@ -201,6 +205,12 @@ h2 {
 
 .value {
   white-space: nowrap;
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  letter-spacing: -0.6px;
+  color: #12131a;
 }
 
 .see-more {
