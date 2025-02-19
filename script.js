@@ -17,6 +17,12 @@ switchThem.addEventListener("click", () => {
   headerThemDark.style.display = "block";
   headerThemLight.style.display = "none";
   checkBoxDark.style.accentColor = "#D3A0FA";
+  document.querySelectorAll(".letter").forEach((el) => {
+    el.style.color = "#E4E4EF";
+  });
+  document.querySelectorAll(".value").forEach((ue) => {
+    ue.style.color = "#E4E4EF";
+  });
 });
 
 switchWhiteThem.addEventListener("click", () => {
@@ -28,11 +34,12 @@ switchWhiteThem.addEventListener("click", () => {
   headerThemDark.style.display = "none";
   headerThemLight.style.display = "block";
   checkBoxDark.style.accentColor = "#D3A0FA";
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  const textInput = document.getElementById("textInput");
-  textInput.value = textInput.value.trim(); // აქ ზედმეტი ხაზები იშლება
+  document.querySelectorAll(".letter").forEach((el) => {
+    el.style.color = "#12131A";
+  });
+  document.querySelectorAll(".value").forEach((ue) => {
+    ue.style.color = "#12131A";
+  });
 });
 
 const data = [
@@ -98,6 +105,16 @@ textInput.addEventListener("input", () => {
       <div class="value">${item.value} (${item.percentage}%)</div>
     `;
     letterDensityContainer.appendChild(letterItem);
+    document.querySelectorAll(".letter").forEach((el) => {
+      el.style.color = document.body.classList.contains("dark-mode")
+        ? "E4E4EF"
+        : "#12131a";
+      document.querySelectorAll(".value").forEach((ue) => {
+        ue.style.color = document.body.classList.contains("dark-mode")
+          ? "#E4E4EF"
+          : "#12131A";
+      });
+    });
   });
 });
 
