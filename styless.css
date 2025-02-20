@@ -226,6 +226,15 @@ h2 {
 }
 
 @media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    width: 1200px;
+    padding: 14px;
+  }
   header {
     gap: 436px;
   }
@@ -239,7 +248,7 @@ h2 {
   }
 
   #textInput {
-    padding: 20px;
+    padding: 70px;
     display: block;
     text-align: left;
     vertical-align: top;
