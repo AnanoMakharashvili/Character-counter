@@ -7,6 +7,7 @@ const checkBoxDark = document.getElementById("checkbox");
 const totalCharacters = document.getElementById("total-characters");
 const wordCount = document.getElementById("word-count");
 const sentenceCount = document.getElementById("sentence-count");
+const letterStyle = document.getElementById("letter-style");
 
 switchThem.addEventListener("click", () => {
   document.body.classList.add("dark-mode");
@@ -17,6 +18,7 @@ switchThem.addEventListener("click", () => {
   headerThemDark.style.display = "block";
   headerThemLight.style.display = "none";
   checkBoxDark.style.accentColor = "#D3A0FA";
+  letterStyle.style.color = "#E4E4EF";
   document.querySelectorAll(".letter").forEach((el) => {
     el.style.color = "#E4E4EF";
   });
@@ -34,6 +36,7 @@ switchWhiteThem.addEventListener("click", () => {
   headerThemDark.style.display = "none";
   headerThemLight.style.display = "block";
   checkBoxDark.style.accentColor = "#D3A0FA";
+  letterStyle.style.color = "#12131A";
   document.querySelectorAll(".letter").forEach((el) => {
     el.style.color = "#12131A";
   });
