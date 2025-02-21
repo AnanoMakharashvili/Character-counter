@@ -20,7 +20,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 123px;
+  gap: 87px;
 }
 
 #icon-sun {
@@ -199,7 +199,7 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   margin: 0 10px;
-  padding: 3px 100px;
+  padding: 3px 15px;
 }
 
 .bar {
@@ -241,10 +241,10 @@ h2 {
 
   main {
     width: 1200px;
-    padding: 14px;
+    padding: 24px;
   }
   header {
-    gap: 436px;
+    gap: 903px;
   }
 
   .head-style {
@@ -253,6 +253,7 @@ h2 {
     line-height: 64px;
     letter-spacing: -1px;
     text-align: center;
+    margin-top: 26px;
   }
 
   #textInput {
