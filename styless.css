@@ -173,7 +173,7 @@ h2 {
   display: flex;
   align-items: center;
   margin: 10px 0;
-  gap: 100px;
+  gap: 70px;
 }
 
 .letter {
@@ -199,7 +199,7 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   margin: 0 10px;
-  padding: 3px 15px;
+  padding: 3px 50px;
 }
 
 .bar {
@@ -208,7 +208,7 @@ h2 {
   transition: width 0.5s ease-in-out;
   padding: 5px;
   border-radius: 4px;
-  transform: translate(-95px, 1px);
+  transform: translate(-50px, 1px);
 }
 
 .value {
@@ -332,5 +332,17 @@ h2 {
     font-size: 64px;
     line-height: 64px;
     letter-spacing: -1px;
+  }
+
+  .letter-item {
+    gap: 100px;
+  }
+
+  .bar-container {
+    padding: 3px 249px;
+  }
+
+  .bar {
+    transform: translate(-246px, 1px);
   }
 }
